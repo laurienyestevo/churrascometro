@@ -16,6 +16,7 @@ const Calculator = () => {
     const [kidCount, setKidCount] = useState(0);
     const [showErrorMessage, setShowErrorMessage] = useState(false);
 
+    
     const navigate = useNavigate();
     const calculateProducts = () => {
         const totalCarne = (
